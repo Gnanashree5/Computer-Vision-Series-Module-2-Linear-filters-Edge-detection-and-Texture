@@ -83,6 +83,13 @@ In **Module 3**, we will build on this foundation by exploring **image segmentat
 
 You can expect these techniques to be useful for more complex applications, such as **automated medical image analysis**, **face detection**, and **object tracking**.
 
+---
+
+<h2>Acknowledgements</h2>
+<p>This notebook was done under guidance of  <a href="https://github.com/Victor-Ikechukwu">Dr. Agughasi Victor Ikechukwu</a></p>
+
+---
+
 ## 📂 Project Structure
 
 ```bash
@@ -91,3 +98,5 @@ You can expect these techniques to be useful for more complex applications, such
 ├── x-ray.jpg                 # X-ray image
 ├── module2_notebook.ipynb    # Jupyter Notebook with code and results
 ├── README.md    
+
+---
