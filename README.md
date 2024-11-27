@@ -15,11 +15,11 @@ This module focuses on essential image processing techniques, such as image filt
    5. [Edge Detection](#5-edge-detection)
    6. [Texture Analysis Using Oriented Pyramids](#6-texture-analysis-using-oriented-pyramids)
    7. [Synthesis by Sampling Local Models](#7-synthesis-by-sampling-local-models)
-3. [Image Datasets Used](#-image-datasets-used)
-4. [Workflow and Results](#-workflow-and-results)
-5. [Project Structure](#-project-structure)
-6. [Conclusion](#-conclusion)
-7. [Next Steps](#-next-steps)
+3. [Workflow and Results](#-workflow-and-results)
+4. [Key Takeaways](#key-takeaways)
+5. [Next Steps](#-next-steps)
+6. [Project Structure](#-project-structure)
+
 
 ---
 
@@ -59,14 +59,6 @@ This module focuses on essential image processing techniques, such as image filt
 
 ---
 
-## 🖼️ Image Datasets Used
-The module uses two primary images to demonstrate the various image processing techniques:
-
-1. **Nature Scene Image (`nature_scene.jpg`)**: A landscape image to illustrate filtering, edge detection, and Fourier transforms.
-2. **X-ray Image (`x-ray.jpg`)**: A medical image to apply similar transformations and analyze frequency components.
-
----
-
 ## 💻 Workflow and Results
 The module applies image processing techniques to both the nature scene and X-ray images. These include Gaussian filtering, Sobel edge detection, and Fourier Transform, with the results visualized using matplotlib.
 
@@ -74,18 +66,7 @@ Each step processes the images, applying the specified filter or transformation,
 
 ---
 
-## 📂 Project Structure
-
-```bash
-.
-├── nature_scene.jpg          # Nature scene image
-├── x-ray.jpg                 # X-ray image
-├── module2_notebook.ipynb    # Jupyter Notebook with code and results
-├── README.md                 # This README file
-
-## 💡 Conclusion
-
-### **Key Takeaways:**
+## Key Takeaways
 - This module introduced core image processing techniques, including **Gaussian filtering**, **Sobel edge detection**, and **Fourier transforms**.
 - We explored essential concepts like **shift invariance**, **sampling**, and **aliasing** and learned their significance in real-world applications.
 - By applying these techniques to **nature scenes** and **X-ray images**, we gained hands-on experience with image enhancement, edge detection, and frequency analysis.
@@ -101,3 +82,12 @@ In **Module 3**, we will build on this foundation by exploring **image segmentat
 3. **Keypoint detection** using methods like SIFT and SURF for feature matching and object recognition tasks.
 
 You can expect these techniques to be useful for more complex applications, such as **automated medical image analysis**, **face detection**, and **object tracking**.
+
+## 📂 Project Structure
+
+```bash
+.
+├── nature_scene.jpg          # Nature scene image
+├── x-ray.jpg                 # X-ray image
+├── module2_notebook.ipynb    # Jupyter Notebook with code and results
+├── README.md    
